@@ -11,9 +11,9 @@
     </head>
     <body>
         <header>
-            <div class="nav-brand py-2">
+            <!-- <div class="nav-brand py-2">
                 <img src="Logomakr_2G2XeL.png">
-            </div>
+            </div> -->
             <ul class="nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link" href="/">home</a>
@@ -29,9 +29,20 @@
                 </li>
             </ul>
         </header>
-        <div class="container">
-          Thank you!
+        <!-- begin section -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="section aboutme py-5 mx-auto" data-anchor="aboutme">
+                    <div class="fuzzy">
+                        <br><br><br><br><br><br><br>
+                        <p>Thank you <%= contact.firstName %> <%= contact.lastName %>!</p>
+                        <p>You're interst is greatly appreciated.<br>I will try and get back to you in the next day.</p>
+                        <!-- <span class="blinking-cursor">|</span> -->
+                    </div>
+                </div>                
+            </div>
         </div>
+        <% include footer %>
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

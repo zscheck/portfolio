@@ -33,6 +33,19 @@ header {
 
 .hname {
     font-weight: 800;
+    font-size: 4.5em;
+}
+
+#centerStage {
+    background-color: rgba(aa, aa, aa, 0.25);
+    position: absolute;
+    top:40%;
+    height: 20%;
+    /* top: 50%; */
+    left: 0px;
+    /* height: 300px; */
+    width: 100%;
+    /* margin: -15% 0 0 -25%; */
 }
 
 .nav-link{
@@ -47,6 +60,17 @@ header {
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
+
+.nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+}
+
+.nav-brand img {
+    height: 3%;
+}
+
 
 .section {
     text-align: center;
@@ -64,7 +88,7 @@ header {
 .aboutme p {
     color:white;
     font-weight: 100;
-    font-size: 17.4px;
+    font-size: 1.3em;
 }
 /* logomakr.com/8Pdv4Q */
 .rlogo {
@@ -74,7 +98,7 @@ header {
 }
 
 .nlogo{
-    width: 25vw;
+    width: 19vw;
     float: right;
     /* right: 0px; */
 }
@@ -114,16 +138,6 @@ header {
     animation: 1s blink step-end infinite;
 }
 
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-  }
-
-  .nav-brand img {
-    height: 3%;
-  }
-
   .bottom {
       position: absolute;
       bottom: 0;
@@ -140,11 +154,13 @@ header {
     /* color: #5d170c; */
     color:#c5c7bf;
     font-weight: bold;
+    text-shadow: 1px 1px 2px black;
   }
 
   .para {
     color:#c5c7bf;
     /* color: #5d170c; */
+    text-shadow: 1px 1px 2px black;
   }
 
 .proj-img {
@@ -257,4 +273,16 @@ header {
     background-color: #c5c7bf;
     color: #c81a00;
     animation: slideLeft 1.15s ease forwards;
+}
+
+.a {
+    animation: slideRight 1.15s ease forwards;
+}
+
+.b {
+    animation: slideLeft 1.15s ease forwards;
+}
+
+.fuzzy {
+    text-shadow: 1px 1px 2px black;
 }
