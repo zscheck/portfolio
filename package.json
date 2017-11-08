@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zscheck/portfolio.git"
+  },
+  "author": "Zachary Scheck <zach.scheck@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zscheck/portfolio/issues"
+  },
+  "homepage": "https://github.com/zscheck/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mailchimp-v3": "^1.0.5",
+    "morgan": "^1.9.0"
+  }
+}
