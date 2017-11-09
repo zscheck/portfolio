@@ -48,6 +48,7 @@ header {
     /* margin: -15% 0 0 -25%; */
 }
 
+
 .nav-link{
     color: #c5c7bf;
 }
@@ -68,7 +69,7 @@ header {
 }
 
 .nav-brand img {
-    height: 3%;
+    height: 3vh;
 }
 
 
