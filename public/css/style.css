@@ -210,7 +210,7 @@ header {
     -ms-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-  }
+}
 
 .footer {
     background-color: #484848;
@@ -218,25 +218,32 @@ header {
     width: 100%;
     position: absolute;
     bottom: 0;
-  }
+}
 
-  .footer p{
+.footer p{
     color: #c5c7bf;
     font-weight: bold;
     font-size: 16px;
-  }
+}
 
-  .foot-img {
+.foot-img {
     vertical-align: middle;
     height: 3em;
-  }
+    opacity: .5;
+}
+
+.foot-img:hover {
+    /* vertical-align: middle;
+    height: 3em; */
+    opacity: 1;
+}
 
 .figure-caption {
     text-align: center;
     margin-top: 0;
     background: rgba(255, 255, 255, 0.541);
     color: black;
-}
+} 
 
 .prof-fig {
     animation: slideRight 1.15s ease forwards;
@@ -265,13 +272,13 @@ header {
 }
 
 .s {
-    background-color: #c81a00;
+    /* background-color: #c81a00; */
     color: #c5c7bf;
     animation: slideRight 1.15s ease forwards;
 }
 
 .m {
-    background-color: #c5c7bf;
+    /* background-color: #c5c7bf; */
     color: #c81a00;
     animation: slideLeft 1.15s ease forwards;
 }
