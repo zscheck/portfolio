@@ -1,6 +1,5 @@
 node_modules
-server.js
-profile.js
+.env
 logs
 *.log
 .DS_Store
