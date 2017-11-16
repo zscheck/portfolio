@@ -238,6 +238,11 @@ header {
     opacity: 1;
 }
 
+.figure {
+    margin: 3rem 0 1rem;
+    border: 2px;
+}
+
 .figure-caption {
     text-align: center;
     margin-top: 0;
@@ -272,13 +277,13 @@ header {
 }
 
 .s {
-    /* background-color: #c81a00; */
+    background-color: #c81a00;
     color: #c5c7bf;
     animation: slideRight 1.15s ease forwards;
 }
 
 .m {
-    /* background-color: #c5c7bf; */
+    background-color: #c5c7bf;
     color: #c81a00;
     animation: slideLeft 1.15s ease forwards;
 }
@@ -293,4 +298,8 @@ header {
 
 .fuzzy {
     text-shadow: 1px 1px 2px black;
+}
+
+.seventy {
+    width: 70%;
 }
